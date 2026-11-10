@@ -1,0 +1,266 @@
+[
+  {
+    "id": "demo-one",
+    "name": "Тестовый эфир",
+    "category": "Тест",
+    "sources": [
+      {
+        "type": "demo",
+        "url": "test-pattern",
+        "label": "Локальный тест · без интернета"
+      }
+    ]
+  },
+  {
+    "id": "official-первыйканал",
+    "name": "Первый канал",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "c58f502c7bb34a8fcdd976b221fca292",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-россия1",
+    "name": "Россия 1",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "2742a3c42be661ea732705f80adb7bdd",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-нтв",
+    "name": "НТВ",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "hls",
+        "url": "https://streaming.televizor-24-tochka.ru/live/7.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "c37cd74192c6bc3d6cd6077c0c4fd686",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-пятыйканал",
+    "name": "Пятый канал",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://streaming.televizor-24-tochka.ru/live/8.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "b2b32a7d6f2323f3a113ff44b0404bf2",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-рентв",
+    "name": "РЕН ТВ",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://streaming.televizor-24-tochka.ru/live/14.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "54395b96ad1a7b49966f46a6eee370a4",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-стс",
+    "name": "СТС",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "rutube",
+        "videoId": "ffc110c6785e57f4c329179b555547b4",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-тнт",
+    "name": "ТНТ",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "rutube",
+        "videoId": "546602986e6a424d74d594876ddb3f04",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-звезда",
+    "name": "Звезда",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "5ab908fccfac5bb43ef2b1e4182256b0",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-россия24",
+    "name": "Россия 24",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://uiptv.do.am/1ufc/000000006/playlist.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "ad6ba2e9e587406b29978b861b7b7dd1",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-тнт4",
+    "name": "ТНТ-4",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "rutube",
+        "videoId": "c801a7087e29a097192d74c270fbc6c1",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-мир",
+    "name": "МИР",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "afef67d151b5a607dee1ef0aa299a52c",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-москва24",
+    "name": "Москва 24",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "rutube",
+        "videoId": "ca70d39eba2e8771358bbcb4bfbad860",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-твц",
+    "name": "ТВЦ",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "rutube",
+        "videoId": "92198c96552e3ee4a62cc1735a98ee54",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-отр",
+    "name": "ОТР",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://streaming.televizor-24-tochka.ru/live/12.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "faa934385b83f9e8a92f5484defae5fa",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-россиякультура",
+    "name": "Россия Культура",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "d0c0d69362edfbe706cb82d973439bb5",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  },
+  {
+    "id": "official-пятница",
+    "name": "Пятница!",
+    "category": "Основные",
+    "sources": [
+      {
+        "type": "hls",
+        "url": "https://vod.tuva.ru/friday/index.m3u8",
+        "label": "Старый каталог · непроверен"
+      },
+      {
+        "type": "rutube",
+        "videoId": "9f87a9a0cecbe773be6fddcbd93585ac",
+        "label": "RUTUBE · статус не подтверждается"
+      }
+    ]
+  }
+]
