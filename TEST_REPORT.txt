@@ -1,0 +1,41 @@
+EFIR 2.0 TEST — build validation
+
+Syntax: storage.js, engine.js, app.js, transport.js, core.js, Code.gs
+
+index.html: IDs and local resource references OK
+player.html: IDs and local resource references OK
+remote.html: IDs and local resource references OK
+
+PASS unsafe URL rejected
+PASS RUTUBE validated
+PASS DASH detected
+PASS stable source identity
+PASS deduplicate sources
+PASS merge never removes old sources
+PASS archive survives refresh
+PASS Russia aliases retain canonical ID
+PASS unknown scenario channel rejected
+PASS duplicate schedule time rejected
+PASS invalid day rejected
+PASS due event fires once in interval
+PASS missed sleep events not replayed
+PASS disabled scenario never fires
+PASS M3U aliases matched
+PASS seed valid and IDs unique
+16 core tests passed
+
+PASS setup isolated and repeat guarded
+PASS wrong role cannot acquire receiver
+PASS first receiver accepted
+PASS second receiver denied
+PASS command queued
+PASS duplicate command idempotent
+PASS only primary polls commands
+PASS remote cannot acknowledge
+PASS ack removed from queue and available to remote
+PASS POST receipt preserves server errors
+PASS immutable catalog publication roundtrip
+PASS revocation blocks old session
+12 server mock tests passed (not real Google deployment)
+
+No real browser playback or Google deployment was executed. No old endpoints or user tokens included.
